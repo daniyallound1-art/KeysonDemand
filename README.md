@@ -9,7 +9,7 @@ This project is built using HTML, CSS, and JavaScript only.
 ## Group Members
 - Muhammad Daniyal
 - Shahzaib Panhwer
-- Saad Ud Din Akber
+- Saad Ud Din Akbar
 
 ## Live Website
 https://daniyallound1-art.github.io/KeysonDemand/
