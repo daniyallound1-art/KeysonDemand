@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+body {
+    background-color: #f4f6f8;
+    color: #222;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #0f172a;
+}
+.logo {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.nav-links a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+    color: #f59e0b;
+}
+.hero {
+    height: 80vh;
+    background: linear-gradient(rgba(15,23,42,0.6), rgba(15,23,42,0.6)),
+                url("../images/car.jpg") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content {
+    text-align: center;
+    color: white;
+}
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.btn {
+    background: #f59e0b;
+    padding: 12px 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.btn:hover {
+    background: #d97706;
+}
+.team-home {
+    background: #f59e0b22;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 40px;
+}
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+.features, .car-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 40px 20px;
+}
+.card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #ccc;
+}
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+form {
+    width: 300px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+form input, select, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button {
+    background: #f59e0b;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+button:hover {
+    background: #d97706;
+}
+.page-title {
+    text-align: center;
+    margin: 30px 0;
+}
+.about {
+    padding: 50px 20px;
+    background: #ffffff;
+    margin: 30px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    line-height: 1.6;
+}
+footer {
+    background: #020617;
+    color: #94a3b8;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}

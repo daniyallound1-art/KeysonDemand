@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Booking | KeysonDemand</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<nav class="navbar">
+    <div class="logo">KeysonDemand</div>
+    <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="cars.html">Cars</a></li>
+        <li><a href="booking.html" class="active">Booking</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</nav>
+<h2 class="page-title">Book Your Car</h2>
+<form id="bookingForm" onsubmit="bookCar(event)">
+    <label>Name</label>
+    <input type="text" required>
+    <label>Email</label>
+    <input type="email" required>
+    <label>Select Car</label>
+    <select id="car">
+        <option>Toyota Corolla</option>
+        <option>Honda Civic</option>
+        <option>Suzuki Alto</option>
+        <option>Bolan</option>
+        <option>Ravi</option>
+        <option>Wagon R</option>
+        <option>Hilux</option>
+    </select>
+    <label>Days</label>
+    <input type="number" min="1" required>
+
+    <button type="submit">Book Now</button>
+</form>
+<footer>© 2025 KeysonDemand</footer>
+<script src="../js/script.js"></script>
+</body>
+</html>
